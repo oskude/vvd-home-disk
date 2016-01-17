@@ -11,8 +11,8 @@ Additionally *vvd-home-disk* detaches the home disk image during `vagrant destro
 
 1. Get the [Vagrantfile](https://github.com/oskude/vvd-home-disk/blob/master/Vagrantfile)
 1. Optionally, create [config.rb](https://github.com/oskude/vvd-home-disk/blob/master/config.rb)
-1. Optionally, create [provision-root.sh](https://github.com/oskude/vvd-home-disk/blob/master/provision-root.rb)
-1. Optionally, create [provision-user.sh](https://github.com/oskude/vvd-home-disk/blob/master/provision-user.rb)
+1. Optionally, create [provision-root.sh](https://github.com/oskude/vvd-home-disk/blob/master/provision-root.sh)
+1. Optionally, create [provision-user.sh](https://github.com/oskude/vvd-home-disk/blob/master/provision-user.sh)
 1. Run `vagrant up`
 
 ## Todo
