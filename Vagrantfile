@@ -31,7 +31,7 @@ PROVISION_DISK = <<-_____
 		mkfs.ext4 ${disk}-part1
 		mount ${disk}-part1 /mnt
 		rsync -ax /home/ /mnt/
-		umount /mnt		
+		umount /mnt
 	fi
 	if ! findmnt /home; then
 		### Mount and update existing home disk
